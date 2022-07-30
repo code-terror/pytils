@@ -2,5 +2,5 @@ project: pytils
 target: fuzz-numeral
 
 cmds:
-  - cmd: python fuzz-numeral.py
+  - cmd: fuzz-numeral.py
     libfuzzer: true
